@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Task</title>
+</head>
+<style>
+    /* Task 1 & 2 */
+    img{
+        display: block;
+        margin: 30px 0px;
+    }
+    hr{
+        margin: 30px 0px;
+    }
+    input[type="submit"]{
+        margin-top: 15px;
+    }
+    input{
+        margin-bottom: 15px;
+    }
+    textarea{
+        margin: 10px 0px;
+    }
+    /* Task 3 */
+    td, th{
+        border: 2px solid black;
+        padding: 8px;
+    }
+    table{
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <header></header>
+    <main>
+        <!-- Task 1 -->
+        <section>
+            <h2>Task 1</h2>
+            <label for="search">
+                Search your image here: 
+                <input type="text" id="search" placeholder="Your Search">
+                <button>Search</button>
+            </label>
+            <img src="https://images.unsplash.com/photo-1704303928271-775bb222ab46?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8" alt="a scenery" width="500px">
+            <a href="https://unsplash.com/" target="_blank">For more information, go here</a>
+            <hr>
+        </section>
+        <section class="form">
+            <p>Feedback Form:</p>
+            <label for="name">Name:
+                <br>
+                <input type="text" id="name" placeholder="Your Name">
+                <br>
+            </label>
+            <label for="date">Date
+                <br>
+                <input type="date" id="date">
+                <br>
+            </label>
+            <label for="comment">Comment <br>
+                <textarea id="comment" cols="40" rows="10"></textarea>
+            </label>
+            <br>
+            <input type="submit" value="Submit">
+        </section>
+        <hr>
+        <!-- Task 2 -->
+        <h2>Task 2</h2>
+        <section>
+            <p>Feedback Form:</p>
+            <br>
+            <label class="comment" for="feedback">Any Comment on the program:
+                <br>
+                <textarea id="feedback" cols="40" rows="10"></textarea>
+                <br><br>
+            </label>
+            <label class="ratings" for="ratings">Your Ratings:
+                <select id="ratings">
+                    <option value="excellent">Excellent</option>
+                    <option value="good" selected>Good</option>
+                    <option value="bad">Bad</option>
+                    <option value="worse">Worse</option>
+                </select>
+            </label>
+            <hr>
+        </section>
+        <!-- Task 3 -->
+        <section>
+            <h2>Task 3</h2>
+            <h3>Table Tennis Tournament</h3>
+            <table>
+                <caption>Tournament Schedule and Result<caption>
+                <tr>
+                    <th>Round 1</th>
+                    <th>Player A</th>
+                    <th>Player B</th>
+                </tr>
+                <tr>
+                    <td>Match 1</td>
+                    <td>Alice</td>
+                    <td>Benny</td>
+                </tr>
+                <tr>
+                    <td>Match 2</td>
+                    <td>Alica</td>
+                    <td>Binna</td>
+                </tr>
+                <tr>
+                    <th>Round 2</th>
+                    <th>Player C</th>
+                    <th>Player D</th>
+                </tr>
+                <tr>
+                    <td>Match 3</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Match 4</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <th>Final</th>
+                    <th>Winner of Match 3</th>
+                    <th>Winner of Match 4</th>
+                </tr>
+                <tr>
+                    <td>Champion</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
